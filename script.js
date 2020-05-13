@@ -30,7 +30,8 @@ var hommage = [
   ['https://editor.p5js.org/douglaslind/sketches/LfWQXCFb0', 'checker.png'],
   ['https://editor.p5js.org/MuchChinz/sketches/GvbvfHXYI', 'squares.gif'],
   ['https://editor.p5js.org/asab/sketches/89xSwbBIX', 'arc.gif'],
-  ['https://editor.p5js.org/fannynilsson/sketches/vk7yZzEuC', 'hilma.png']
+  ['https://editor.p5js.org/fannynilsson/sketches/vk7yZzEuC', 'hilma.png'],
+  ['https://editor.p5js.org/pjhochman/sketches/tEbPFwlNp', 'jazz.gif']
 ];
 
 var letters = [
