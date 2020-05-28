@@ -1,9 +1,9 @@
-@import url("https://cdn.staticaly.com/gh/jonasjohansson/template/master/reset.css");
+@import url('https://cdn.staticaly.com/gh/jonasjohansson/template/master/reset.css');
 
 /* base */
 
 html {
-  background-color: black;
+  background-color: #656564;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
@@ -12,17 +12,21 @@ html {
 a.item {
   text-decoration: none;
   color: black;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 /* header */
 
 header {
+  display: none;
   text-align: center;
   padding: 10rem 0;
 }

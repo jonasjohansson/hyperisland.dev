@@ -1,24 +1,30 @@
 window.onload = () => {
-  var objects = hommage.concat(letters);
-  addObjects(objects);
+  var mrObjects = worlds.concat(letters3d);
+  addObjects(mrObjects, 'mr');
+  var gdObjects = hommage.concat(letters);
+  addObjects(gdObjects, 'gd');
 };
 
-function addObjects(objects) {
-  let item = document.querySelector('.item');
+function addObjects(objects, folder) {
+  let grid = document.querySelector('#grid');
+  //let item = document.querySelector('.item');
   for (let i = 0; i < objects.length; i++) {
-    let itemClone = item.cloneNode(true);
+    //let itemClone = item.cloneNode(true);
+    let itemClone = document.createElement('a');
+    itemClone.classList.add('item');
     itemClone.setAttribute('target', '_blank');
-    item.parentNode.appendChild(itemClone);
+    //item.parentNode.appendChild(itemClone);
+    grid.appendChild(itemClone);
     let object = objects[i];
     let objectLink = object[0];
     let objectMedia = object[1];
     console.log(object);
     let img = document.createElement('img');
     itemClone.href = objectLink;
-    img.src = 'images/' + objectMedia;
+    img.src = 'images/' + folder + '/' + objectMedia;
     itemClone.appendChild(img);
   }
-  item.parentNode.removeChild(item);
+  //item.parentNode.removeChild(item);
 }
 
 var hommage = [
@@ -52,4 +58,30 @@ var letters = [
   ['https://editor.p5js.org/douglaslind/sketches/Skr2eQ3UE', 'l.gif'],
   ['https://editor.p5js.org/hamzakhan/sketches/7uJIgRmTu', 'o2.gif'],
   ['https://editor.p5js.org/MuchChinz/sketches/fUhmhMH8I', 'x2.gif']
+];
+
+var letters3d = [
+  ['https://a-frame-k-letter.glitch.me/', 'k.gif'],
+  ['https://courageous-meteorology.glitch.me/', 't.gif'],
+  ['https://coherent-palm-clef.glitch.me/', 'g.gif'],
+  ['https://exlopring-g.glitch.me/', 'g2.gif'],
+  ['https://sulky-skitter-scion.glitch.me/', 'o.gif'],
+  ['https://lavender-slow-amaryllis.glitch.me/', 'p.gif'],
+  ['https://excessive-tundra-fossa.glitch.me/', 'd.gif'],
+  ['https://lead-plausible-gopher.glitch.me/aframe.html', 'o2.gif'],
+  ['https://resilient-glaze-handsaw.glitch.me/', 'e.gif'],
+  ['https://longing-rocky-daemonosaurus.glitch.me/', 'l.gif'],
+  ['https://shooting-cube.glitch.me/', 'o3.gif'],
+  ['https://available-swift-barberry.glitch.me/', 'y.gif'],
+  ['https://aframe-2020.glitch.me/', 'e.jpg'],
+  ['https://concrete-phase-leopard.glitch.me/', 'n.gif']
+];
+
+var worlds = [
+  ['https://zcream.glitch.me/', 'scream.gif'],
+  ['https://economic-mahogany-frigate.glitch.me/', 'trumpet.gif'],
+  ['https://lime-handy-butterfly.glitch.me/', 'space.gif'],
+  ['https://stormy-shelled-poultry.glitch.me/', 'space2.gif'],
+  ['https://meowing-cute-concavenator.glitch.me/', 'totoro.gif'],
+  ['https://amenable-jasper-smelt.glitch.me/', 'knee.gif']
 ];
