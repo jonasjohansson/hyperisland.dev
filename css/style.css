@@ -3,7 +3,7 @@
 /* base */
 
 html {
-  background-color: #656564;
+  background-color: #313131;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
@@ -12,7 +12,7 @@ html {
 a.item {
   text-decoration: none;
   color: black;
-  padding: 1rem;
+  padding: 0.5rem;
   box-sizing: border-box;
 }
 
@@ -53,14 +53,26 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 800px) {
   #grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 960px) {
   #grid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1120px) {
+  #grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  #grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
