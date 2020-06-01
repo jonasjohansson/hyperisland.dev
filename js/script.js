@@ -1,6 +1,7 @@
 window.onload = () => {
   var mrObjects = worlds.concat(letters3d);
   addObjects(mrObjects, 'mr');
+  addObjects(designofdata, 'gdod');
   var gdObjects = hommage.concat(letters);
   addObjects(gdObjects, 'gd');
 };
@@ -84,4 +85,21 @@ var worlds = [
   ['https://stormy-shelled-poultry.glitch.me/', 'space2.gif'],
   ['https://meowing-cute-concavenator.glitch.me/', 'totoro.gif'],
   ['https://amenable-jasper-smelt.glitch.me/', 'knee.gif']
+];
+
+var designofdata = [
+  ['https://rtro-wthr.netlify.app/', 'weatherspirals.gif'],
+  ['https://generativecolorart.netlify.app/', 'artgrad.gif'],
+  ['https://editor.p5js.org/rainnie/present/pq19a97cy', 'birdcage.gif'],
+  ['https://editor.p5js.org/MuchChinz/full/CrRizZexD', 'bullshit.gif'],
+  ['https://peterscolorpalette.netlify.app/', 'gradient.gif'],
+  ['https://variable-birdsong.netlify.app/', 'koltrast.gif'],
+  ['https://editor.p5js.org/thornvik/present/-YmbK3S3D', 'lines.gif'],
+  ['https://editor.p5js.org/joakimhellgren/full/a1HeJ8gHH', 'musicdots.gif'],
+  ['https://priceless-bardeen-5c875c.netlify.app/', 'particles.gif'],
+  ['https://editor.p5js.org/TQM/present/DrmQJ0R2A', 'smileys.gif'],
+  ['https://dgozen-quotey.glitch.me/', 'quotey.jpg'],
+  ['https://wealthvshappiness.netlify.app/', 'wealthspiral.gif'],
+  ['https://editor.p5js.org/tim.olsson/present/5mlRyUuw-', 'whale.gif'],
+  ['https://discus.netlify.app/', 'musicspiral.jpg']
 ];
