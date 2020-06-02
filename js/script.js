@@ -1,4 +1,10 @@
 window.onload = () => {
+  shuffle(worlds);
+  shuffle(letters3d);
+  shuffle(designofdata);
+  shuffle(hommage);
+  shuffle(letters);
+
   var mrObjects = worlds.concat(letters3d);
   addObjects(mrObjects, 'mr');
   addObjects(designofdata, 'gdod');
@@ -104,3 +110,19 @@ var designofdata = [
   ['https://discus.netlify.app/', 'musicspiral.jpg'],
   ['https://robotquotes.netlify.app/', 'ai.jpg']
 ];
+
+function shuffle(array) {
+  var currentIndex = array.length,
+    temporaryValue,
+    randomIndex;
+
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
