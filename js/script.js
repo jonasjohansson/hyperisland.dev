@@ -101,5 +101,6 @@ var designofdata = [
   ['https://dgozen-quotey.glitch.me/', 'quotey.jpg'],
   ['https://wealthvshappiness.netlify.app/', 'wealthspiral.gif'],
   ['https://editor.p5js.org/tim.olsson/present/5mlRyUuw-', 'whale.gif'],
-  ['https://discus.netlify.app/', 'musicspiral.jpg']
+  ['https://discus.netlify.app/', 'musicspiral.jpg'],
+  ['https://robotquotes.netlify.app/', 'ai.jpg']
 ];
