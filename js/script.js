@@ -76,7 +76,7 @@ var dod3 = [
   ['https://peterscolorpalette.netlify.app/', 'gradient.gif'],
   ['https://variable-birdsong.netlify.app/', 'koltrast.gif'],
   ['https://editor.p5js.org/thornvik/present/-YmbK3S3D', 'lines.gif'],
-  ['https://editor.p5js.org/joakimhellgren/full/a1HeJ8gHH', 'musicdots.gif'],
+  ['https://editor.p5js.org/joakimhellgren/present/topaTQfoL', 'musicdots.gif'],
   ['https://priceless-bardeen-5c875c.netlify.app/', 'particles.gif'],
   ['https://editor.p5js.org/TQM/present/DrmQJ0R2A', 'smileys.gif'],
   ['https://dgozen-quotey.glitch.me/', 'quotey.jpg'],
